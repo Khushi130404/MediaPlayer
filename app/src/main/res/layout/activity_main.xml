@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp"
+    android:weightSum="6"
+    android:background="#040D12"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvSong"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20sp"
+        android:layout_height="0sp"
+        android:layout_weight="0.6"
+        android:text="Spotify"
+        android:textColor="#CBE4DE"
+        android:gravity="center"
+        android:textSize="45sp"
+        ></TextView>
+
+    <ImageView
+        android:id="@+id/ivSong"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_margin="40sp"
+        android:layout_weight="3.5"
+        android:gravity="center"
+        android:background="@drawable/img_2"
+        ></ImageView>
+
+    <SeekBar
+        android:id="@+id/sb"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:gravity="center"
+        android:layout_weight="0.5"
+        ></SeekBar>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.3"
+        android:gravity="right"
+        android:text="0/0"
+        android:layout_marginRight="15sp"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="0.85"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        >
+
+        <Button
+            android:id="@+id/btOpen"
+            android:layout_width="0sp"
+            android:background="@drawable/song"
+            android:layout_margin="10sp"
+            android:layout_height="match_parent"
+            android:textColor="#93B1A6"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:textColor="#93B1A6"
+            android:id="@+id/btPlay"
+            android:layout_width="0sp"
+            android:layout_margin="10sp"
+            android:layout_height="match_parent"
+            android:background="@drawable/baseline_play_circle_filled_24"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:textColor="#93B1A6"
+            android:layout_margin="10sp"
+            android:id="@+id/btPause"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_pause_button"
+            android:layout_weight="1"
+            ></Button>
+
+        <Button
+            android:layout_margin="10sp"
+            android:id="@+id/btStop"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:background="@drawable/stop_button"
+            android:layout_weight="1"
+            android:textColor="#93B1A6"
+            ></Button>
+
+    </LinearLayout>
+</LinearLayout>
