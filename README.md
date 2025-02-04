@@ -20,3 +20,12 @@ Media Player is a simple and interactive Android application built using Java in
 
 3. Build and run the app on an emulator or physical device.
 
+## Technologies Used
+
+- Java (Android Development)
+
+- MediaPlayer API (For audio playback)
+
+- Notification Manager (For background playback controls)
+
+
