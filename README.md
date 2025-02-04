@@ -11,3 +11,12 @@ Media Player is a simple and interactive Android application built using Java in
 - Progress Bar: Visual representation of song progress with duration.
 
 - Notification Service: Controls and song details appear in the notification panel while playing
+
+## Installation
+
+1. Clone the repository or download the project.
+
+2. Open the project in Android Studio.
+
+3. Build and run the app on an emulator or physical device.
+
